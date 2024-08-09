@@ -9,7 +9,7 @@ export default function Header(){
 
   return (
     <header className="w-full p-4 md:px-16 md:py-8   ">
-        <div className='  flex justify-between items-center      '>
+        <div className=' flex justify-between items-center      '>
             <div className="flex flex-row">
                 <svg viewBox="0 0 140 30" fill="none" xmlns="http://www.w3.org/2000/svg" height="auto" className="mx-1 w-24 xl:w-36 2xl:w-44 2xl:mx-2  undefined">
                     <path d="M13.9348 0C11.8521 0 9.89563 1.01352 8.68929 2.71738L4.8228 8.18057L0 15.0012L4.82538 21.8192L9.65076 15.0012L20.2604 0H13.9348Z" fill="#0098FF"></path>
@@ -36,11 +36,11 @@ export default function Header(){
                 </div>
             </div>
 
-            <div className={`absolute bg-[#000101] md:relative md:top-0 top-10 left-0 w-full md:w-1/3 h-full z-50 md:justify-center md:items-cente  md:flex  ${isOpen ? 'block' : 'hidden'} `}>
+            <div className={`absolute bg-[#000101] md:relative md:top-0 top-10 left-0 w-full md:w- h-full z-50 md:justify-center md:items-cente  md:flex  ${isOpen ? 'block' : 'hidden'} `}>
                 <nav className='flex flex-col md:flex-row md:space-x-8 mx-8 p-2 md:p-4'>
-                    <Link target="_blank" className="text-gray-500 text-sm md:text-xl lg:text-2xl " href="https://chromewebstore.google.com/detail/x-alpha/jiikabmboknibiohmgaapgbmdopklnmn">Extension</Link>
-                    <Link target="_blank" className='text-gray-500 text-sm md:text-xl lg:text-2xl' href="https://t.me/Xalpha_bot?start=config_024beea035d24ed8ad54293a4fae8486">Telegram Bot</Link>
-                    <Link target="_blank" className='text-gray-500 text-sm md:text-xl lg:text-2xl' href="/">Mobile App</Link>
+                    <Link target="_blank" className="text-gray-500 text-sm md:text-xl lg:text-xl " href="https://chromewebstore.google.com/detail/x-alpha/jiikabmboknibiohmgaapgbmdopklnmn">Extension</Link>
+                    <Link target="_blank" className='text-gray-500 text-sm md:text-xl lg:text-xl' href="https://t.me/Xalpha_bot?start=config_024beea035d24ed8ad54293a4fae8486">Telegram Bot</Link>
+                    <Link target="_blank" className='text-gray-500 text-sm md:text-xl lg:text-xl' href="/">Mobile App</Link>
                 </nav>
                 <div className='md:hidden flex  flex-col justify-center items-center'>
                     <p className=" text-primary  text-xl text-[#7F8DAB]">GitBook</p>
@@ -79,8 +79,8 @@ export default function Header(){
                 </div>
             </div>
             <div className=' hidden md:flex justify-center  items-center '>
-                <button className="p-2  focus:outline-none  rounded-full border border-white text-white transition-colors duration-300 hover:bg-blue-700  flex justify-center  items-center px-1 space-x-1 py-1 cursor-pointer border-none ">
-                    <svg height="auto" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-5 lg:w-5 xl:w-6 2xl:w-8 2xl:mx-2  w-12 mx-0 ">
+                <button className="p-2  focus:outline-none  rounded-full border border-white text-white transition-colors duration-300 hover:bg-blue-700  flex justify-center  items-center space-x-1 py-0 cursor-pointer border-none ">
+                    <svg height="auto" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-5 lg:w-5 xl:w-5 2xl:w-8 2xl:mx-2 mx-0 ">
                         <g clip-path="url(#clip0_3023_8873)">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M6.57035 9.85768L4.01199 5.42803C5.65146 3.37799 8.17072 2.0625 11 2.0625C14.2734 2.0625 17.1334 3.82207 18.689 6.44467H11.3966C11.2653 6.4335 11.1341 6.42791 11 6.42791C8.87176 6.42791 7.07867 7.88863 6.57035 9.85768ZM14.1979 7.73502H19.3203C19.7169 8.74607 19.9347 9.8465 19.9347 11C19.9347 15.9017 15.9882 19.8816 11.0978 19.9375L14.7537 13.6058C15.2677 12.8657 15.5693 11.9692 15.5693 11C15.5693 9.72361 15.0442 8.56732 14.1952 7.73502H14.1979ZM7.75178 11C7.75178 9.20971 9.20971 7.75457 10.9972 7.75457C12.7847 7.75457 14.2426 9.2125 14.2426 11C14.2426 12.7875 12.7847 14.2454 10.9972 14.2454C9.20971 14.2454 7.75178 12.7875 7.75178 11ZM12.2233 15.4073L9.66496 19.8397C5.36379 19.1946 2.0625 15.4827 2.0625 11C2.0625 9.40801 2.47865 7.91377 3.20762 6.61783L6.85523 12.9383C7.58699 14.494 9.16781 15.5749 10.9972 15.5749C11.4217 15.5749 11.8323 15.5162 12.2233 15.4073Z" fill="white"></path>
                         </g>
@@ -90,7 +90,7 @@ export default function Header(){
                             </clipPath>
                         </defs>
                     </svg>
-                    <p className='text-xs md:text-sm lg:text-base text-white 2xl:text-2xl px-1'>Simply Use XAlpha</p>
+                    <p className='whitespace-nowrap text-xs md:text-sm lg:text-base text-white 2xl:text-xl px-1'>Simply Use XAlpha</p>
                 </button>  
             </div>
         </div>
