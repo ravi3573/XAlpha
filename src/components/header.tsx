@@ -9,7 +9,7 @@ export default function Header(){
 
   return (
     <header className="w-full p-4 md:px-16 md:py-8   ">
-        <div className=' flex justify-between items-center   '>
+        <div className='  flex justify-between items-center      '>
             <div className="flex flex-row">
                 <svg viewBox="0 0 140 30" fill="none" xmlns="http://www.w3.org/2000/svg" height="auto" className="mx-1 w-24 xl:w-36 2xl:w-44 2xl:mx-2  undefined">
                     <path d="M13.9348 0C11.8521 0 9.89563 1.01352 8.68929 2.71738L4.8228 8.18057L0 15.0012L4.82538 21.8192L9.65076 15.0012L20.2604 0H13.9348Z" fill="#0098FF"></path>
@@ -36,7 +36,7 @@ export default function Header(){
                 </div>
             </div>
 
-            <div className={`absolute bg-[#000101] md:relative md:top-0 top-10 left-0 w-full h-full z-50 md:justify-center md:items-cente  md:flex  ${isOpen ? 'block' : 'hidden'} `}>
+            <div className={`absolute bg-[#000101] md:relative md:top-0 top-10 left-0 w-full md:w-1/3 h-full z-50 md:justify-center md:items-cente  md:flex  ${isOpen ? 'block' : 'hidden'} `}>
                 <nav className='flex flex-col md:flex-row md:space-x-8 mx-8 p-2 md:p-4'>
                     <Link target="_blank" className="text-gray-500 text-sm md:text-xl lg:text-2xl " href="https://chromewebstore.google.com/detail/x-alpha/jiikabmboknibiohmgaapgbmdopklnmn">Extension</Link>
                     <Link target="_blank" className='text-gray-500 text-sm md:text-xl lg:text-2xl' href="https://t.me/Xalpha_bot?start=config_024beea035d24ed8ad54293a4fae8486">Telegram Bot</Link>
@@ -66,7 +66,7 @@ export default function Header(){
                             </svg>
                         </Link>
                         <Link target="_blank" href="https://dexscreener.com/ethereum/0x8ef598943003e60ae3771cbaf5cc855e983b9f0d" className="flex justify-center items-center  bg-[#313948] p-1 rounded-md">
-                            <svg height="16" width="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-1 undefined ">
+                            <svg height="16" width="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="mx-1 undefined ">
                                 <path  d="M18.004 7.68198V10.5123C17.9648 10.6684 17.924 10.8236 17.888 10.9813C17.5993 12.4003 16.9717 13.7265 16.06 14.8443C14.834 16.3771 13.1463 17.4632 11.2536 17.9374C10.7632 18.0636 10.716 18.0304 10.5792 17.5428C10.3749 16.8286 10.3282 16.0777 10.4424 15.3432C10.6472 14.0073 11.292 12.8914 12.1224 11.866C12.4984 11.4018 12.9224 10.9821 13.316 10.5188C12.6722 10.6974 12.0155 10.8245 11.352 10.8988C10.4944 10.9797 9.7064 10.8277 9.032 10.2519C8.952 10.1864 8.8256 10.1136 8.888 9.99475C8.968 9.84273 9.1032 9.93491 9.2008 9.9899C9.804 10.3312 10.4608 10.37 11.136 10.3587C11.9576 10.3449 12.7424 10.1662 13.5312 9.95432C14.2592 9.75782 14.644 9.24593 14.9128 8.60952C15.172 7.99817 15.0032 7.40299 14.4952 6.97602C14.088 6.63315 13.6056 6.44473 13.1096 6.27572C12.5416 6.08326 11.98 5.87139 11.4176 5.66275C11.28 5.61262 11.1336 5.5641 11.0544 5.42662C10.6344 4.69883 9.9688 4.63252 9.2432 4.74735C9.04621 4.7788 8.84528 4.77497 8.6496 4.73603C7.2752 4.4724 6.0592 4.89776 4.9544 5.67407C3.9568 6.37438 3.664 7.44343 3.612 8.60547C3.524 10.5746 3.044 12.4337 2.084 14.1594C1.8584 14.5637 1.8136 14.571 1.5616 14.1933C0.98441 13.3187 0.555595 12.3528 0.292798 11.3355C0.128798 10.7209 0.0952 10.0886 0 9.46427V8.73648C0.0192 8.6176 0.0447969 8.49954 0.0567969 8.37986C0.404797 4.90827 2.1512 2.41112 5.216 0.845555C6.1152 0.386235 7.096 0.182453 8.08 0.00292969H10C10.0904 0.0239549 10.1792 0.0514491 10.2712 0.0651964C13.0904 0.495404 15.2464 1.94938 16.7712 4.37455C17.4104 5.387 17.7504 6.51751 18.004 7.68198Z" fill="#BCC9E4"></path>
                             </svg>
                         </Link>
